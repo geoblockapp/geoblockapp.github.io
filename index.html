@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geo Block Privacy Policy</title>
+<style>
+  :root {
+    --paper: #F5F7F3;
+    --paper-raised: #FFFFFF;
+    --ink: #172019;
+    --muted: #55665A;
+    --accent: #1E6F52;
+    --accent-soft: #E3EFE7;
+    --line: #DBE3DA;
+    --code-bg: #EAEFE9;
+    --code-ink: #2C4A3C;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #10140E;
+      --paper-raised: #151A12;
+      --ink: #E8ECE5;
+      --muted: #93A38E;
+      --accent: #5AD6A1;
+      --accent-soft: #17251C;
+      --line: #263029;
+      --code-bg: #182018;
+      --code-ink: #9FE8C4;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    margin: 0;
+    padding: 0 20px 96px;
+  }
+
+  .page {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .masthead {
+    padding: 56px 0 28px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .eyebrow {
+    font-size: 12.5px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    margin: 0 0 10px;
+  }
+
+  h1 {
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Source Serif Pro", serif;
+    font-size: 34px;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    margin: 0 0 12px;
+    text-wrap: balance;
+  }
+
+  .meta {
+    color: var(--muted);
+    font-size: 14.5px;
+    margin: 0;
+  }
+
+  .meta strong { color: var(--ink); font-weight: 600; }
+
+  nav.toc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+    margin-top: 22px;
+  }
+
+  nav.toc a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 13.5px;
+    border-bottom: 1px solid transparent;
+  }
+
+  nav.toc a:hover, nav.toc a:focus-visible {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  section {
+    padding: 40px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  section:last-of-type { border-bottom: none; }
+
+  h2 {
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Source Serif Pro", serif;
+    font-size: 21px;
+    margin: 0 0 16px;
+    text-wrap: balance;
+  }
+
+  h3 {
+    font-size: 15px;
+    margin: 24px 0 8px;
+    color: var(--ink);
+  }
+
+  p { margin: 0 0 14px; max-width: 62ch; }
+  p:last-child { margin-bottom: 0; }
+
+  ul { margin: 0 0 14px; padding-left: 20px; }
+  li { margin-bottom: 8px; max-width: 60ch; }
+
+  strong { font-weight: 600; }
+
+  .callout {
+    background: var(--accent-soft);
+    border-radius: 10px;
+    padding: 16px 18px;
+    font-size: 14.5px;
+    color: var(--ink);
+    margin: 4px 0 18px;
+  }
+
+  .callout strong { color: var(--accent); }
+
+  code, .perm {
+    font-family: ui-monospace, "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+    background: var(--code-bg);
+    color: var(--code-ink);
+    font-size: 12.5px;
+    padding: 2px 6px;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+
+  .perm-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin: 4px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .perm-row {
+    display: grid;
+    grid-template-columns: minmax(140px, auto) 1fr;
+    gap: 4px 20px;
+    align-items: start;
+  }
+
+  .perm-row p { margin: 0; font-size: 14.5px; color: var(--muted); }
+
+  @media (max-width: 480px) {
+    .perm-row { grid-template-columns: 1fr; }
+  }
+
+  footer {
+    padding-top: 40px;
+    color: var(--muted);
+    font-size: 13.5px;
+  }
+
+  footer a { color: var(--accent); }
+
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <header class="masthead">
+    <p class="eyebrow">Privacy Policy</p>
+    <h1>Geo Block</h1>
+    <p class="meta">Effective and last updated <strong>July 22, 2026</strong> &middot; Package <code>com.geoblock.app</code></p>
+    <nav class="toc" aria-label="Sections">
+      <a href="#overview">Overview</a>
+      <a href="#collect">What we collect</a>
+      <a href="#location">Location data</a>
+      <a href="#permissions">Permissions</a>
+      <a href="#storage">Storage &amp; backup</a>
+      <a href="#sharing">Sharing</a>
+      <a href="#children">Children</a>
+      <a href="#choices">Your choices</a>
+      <a href="#changes">Changes</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="overview">
+    <h2>Overview</h2>
+    <p>Geo Block is a location-based app and browser blocker: you draw zones on a map, choose which apps or websites are restricted inside them, and the app enforces that automatically. This policy explains what information Geo Block accesses on your device, how it's used, and — most importantly — what never leaves your device.</p>
+    <div class="callout"><strong>In short:</strong> Geo Block has no servers, no user accounts, no analytics, and no advertising. Everything it needs to function — your zones, your blocklists, your settings — is stored only in the app's private storage on your own device.</div>
+  </section>
+
+  <section id="collect">
+    <h2>What we collect</h2>
+    <p>Geo Block does not collect information in the sense of gathering it off your device. The app reads certain signals from the device it's running on, strictly to operate the blocking rules you've configured:</p>
+    <ul>
+      <li><strong>Your device's location</strong>, to determine whether you're inside or outside a zone you created.</li>
+      <li><strong>The name of the app currently in the foreground</strong>, to check it against your blocklist while you're inside a zone.</li>
+      <li><strong>The list of apps installed on your device</strong>, so you can pick which ones to block.</li>
+    </ul>
+    <p>None of this is transmitted to us or to any third party — Geo Block has no backend to send it to. It's read, compared against your local settings, and discarded or written to local storage.</p>
+  </section>
+
+  <section id="location">
+    <h2>Location data</h2>
+    <p>Location access is the core of how Geo Block works: zones are geofences, and the app needs to know when you cross their boundary — including while the app is closed or the screen is off — to turn blocking on or off at the right moment. This is why Geo Block requests "Allow all the time" location access rather than "only while using the app."</p>
+    <p>Location is processed on-device only, used solely to evaluate zone entry and exit, and is never logged to a history, never shown to anyone else, and never transmitted anywhere.</p>
+  </section>
+
+  <section id="permissions">
+    <h2>Permissions, and why we ask</h2>
+    <ul class="perm-list">
+      <li class="perm-row">
+        <span class="perm">ACCESS_FINE_LOCATION<br/>ACCESS_COARSE_LOCATION<br/>ACCESS_BACKGROUND_LOCATION</span>
+        <p>Detect entry and exit from the zones you draw, even when the app isn't open.</p>
+      </li>
+      <li class="perm-row">
+        <span class="perm">Accessibility Service</span>
+        <p>Detect which app is currently open, so a blocked app can be closed while you're inside a restricted zone. Not used to read screen content, keystrokes, or any other accessibility data.</p>
+      </li>
+      <li class="perm-row">
+        <span class="perm">QUERY_ALL_PACKAGES</span>
+        <p>List the apps installed on your device so you can choose which ones belong on a zone's blocklist.</p>
+      </li>
+      <li class="perm-row">
+        <span class="perm">Device Administrator</span>
+        <p>Requires Geo Block to be deactivated as a device admin before it can be uninstalled, and allows it to lock the screen — both intended to stop blocking rules from being casually bypassed on a shared or managed device.</p>
+      </li>
+      <li class="perm-row">
+        <span class="perm">RECEIVE_BOOT_COMPLETED</span>
+        <p>Restart the blocking service after the device reboots, so zones keep working without you having to reopen the app.</p>
+      </li>
+      <li class="perm-row">
+        <span class="perm">INTERNET<br/>ACCESS_NETWORK_STATE</span>
+        <p>Open web pages you navigate to from within the app (for example, blocked-site prompts) and check connectivity. Not used to send app data to any server.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="storage">
+    <h2>Storage &amp; backup</h2>
+    <p>Your zones, blocklists, and settings are stored locally in the app's private storage on your device and are never uploaded by Geo Block. If your device has Android's built-in automatic backup turned on (<em>Settings &rsaquo; System &rsaquo; Backup</em>), that OS-level feature may include this app's data in your Google Account backup, the same way it does for most Android apps — Geo Block does not initiate, access, or process that backup itself.</p>
+    <p>Uninstalling the app removes its local data from your device.</p>
+  </section>
+
+  <section id="sharing">
+    <h2>Sharing &amp; third parties</h2>
+    <p>Geo Block does not share, sell, or transmit your data to anyone, because it has no mechanism to transmit it at all. The app contains no advertising SDKs, no analytics or crash-reporting SDKs, and no third-party trackers.</p>
+  </section>
+
+  <section id="children">
+    <h2>Children</h2>
+    <p>Geo Block is a utility operated by whoever manages the device it's installed on — typically a parent, guardian, or the device owner themselves — to set blocking rules. It is not directed at children as an audience and does not knowingly collect information from children, since it does not collect information from anyone in the first place.</p>
+  </section>
+
+  <section id="choices">
+    <h2>Your choices</h2>
+    <ul>
+      <li>Revoke location, or any other permission, at any time in Android's app settings — this will limit or disable the corresponding blocking feature.</li>
+      <li>Turn off the Accessibility Service or Device Administrator access in Android's Accessibility or Device Admin settings.</li>
+      <li>Delete a zone or its blocklist directly within the app.</li>
+      <li>Uninstall the app to remove all locally stored data.</li>
+    </ul>
+  </section>
+
+  <section id="changes">
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, the "last updated" date at the top will change with it. Material changes will be reflected here before they take effect.</p>
+  </section>
+
+  <footer id="contact">
+    <h2 style="font-size:15px; font-family: -apple-system, 'Segoe UI', Roboto, sans-serif; margin-bottom:6px;">Contact</h2>
+    <p>Questions about this policy or how Geo Block works: <a href="mailto:geoblockapp@gmail.com">geoblockapp@gmail.com</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
